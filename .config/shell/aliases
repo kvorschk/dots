@@ -1,0 +1,30 @@
+alias rh='cd ~'
+alias cl='clear'
+alias lg='ls -lg'
+alias lsl='ls -l -h'
+alias cd..='cd ..'
+alias sc='sc-im'
+alias w3d='w3m duckduckgo.com'
+alias neo='neofetch'
+alias rb='reboot'
+alias sdn='shutdown now'
+
+alias psi='sudo pacman -S'
+alias pss='sudo pacman -Ss'
+alias psy='sudo pacman -Sy'
+alias psu='sudo pacman -Syu'
+alias pr='sudo pacman -R'
+alias ys='yay -S'
+alias yss='yay -Ss'
+alias ysu='yay -Syu'
+alias yr='yay -R'
+
+alias ub='source ~/.bashrc'
+
+
+
+alias mmus='sudo mount -t cifs -o username=nobody,password="",noperm //192.168.1.79/mushare  $HOME/mnt/mushare'
+alias dump='sudo mount -t cifs -o username=nobody,password="",noperm //192.168.1.79/dump     $HOME/mnt/dump'
+alias movies='sudo mount -t cifs -o username=nobody,password="",noperm //192.168.1.79/movies $HOME/mnt/movies'
+
+alias forgot='less $HOME/.config/shell/aliases'

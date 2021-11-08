@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/dorian/files/pics/autumn-8q-1366x768.jpg" added="2021-10-20T23:10:50.860205Z" modified="2021-10-20T23:10:50.860233Z" visited="2021-10-20T23:10:50.860211Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-20T23:10:50.860221Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/dorian/files/dls" added="2021-10-20T23:12:33.623981Z" modified="2021-10-20T23:12:33.624005Z" visited="2021-10-20T23:12:33.623986Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-20T23:12:33.623995Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/dorian/files/suckless/st/st-alpha-0.8.2.diff" added="2021-10-21T00:03:09.159636Z" modified="2021-10-21T00:03:09.159668Z" visited="2021-10-21T00:03:09.159643Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-21T00:03:09.159654Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/dorian/files/suckless/st/st-blinking_cursor-20200531-a2a7044.diff" added="2021-10-21T00:19:11.760378Z" modified="2021-10-21T00:19:11.760409Z" visited="2021-10-21T00:19:11.760385Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2021-10-21T00:19:11.760396Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

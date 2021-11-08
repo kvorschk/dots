@@ -1,0 +1,4 @@
+eval $(/usr/bin/gnome-keying-daemon --start --components=pkcsll,secrets,ssh)
+export SSH_AUTH_SOCK
+
+exec /usr/bin/i3
