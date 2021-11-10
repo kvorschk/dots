@@ -3,14 +3,14 @@
   help = F10
 [profiles]
   [[default]]
-    background_darkness = 0.85
+    background_darkness = 0.95
     background_type = transparent
-    background_color = "#251200"
-    cursor_color = "#e5591c"
-    foreground_color = "#dec165"
+    background_color = "#262626"
+    cursor_color = "#fc531d"
+    foreground_color = "#ebdbb2"
     show_titlebar = False
     scrollbar_position = hidden
-    palette = ""#000000:#d6262b:#919c00:#be8a13:#4699a3:#8d4331:#da8213:#ddc265:#7f6a55:#e55a1c:#bfc65a:#ffcb1b:#7cc9cf:#d26349:#e6a96b:#ffeaa3
+    palette = "#000000:#c13900:#a4a900:#caaf00:#bd6d00:#fc5e00:#f79500:#ffc88a:#6a4f2a:#ff8c68:#f6ff40:#ffe36e:#ffbe55:#fc874f:#c69752:#fafaff"
 [layouts]
   [[default]]
     [[[window0]]]
