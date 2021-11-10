@@ -179,11 +179,34 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+
 bar {
         status_command i3blocks
 	position top
 	font pango:Ubuntu-M 16, Awesome 10
-}
+
+colors {
+            background #33241e
+            statusline #eeeeee
+            separator #666666
+            #                  border  backgr. text
+            focused_workspace  #ff4800 #521700 #827772
+            active_workspace   #4d2313 #521700 #827772
+            inactive_workspace #333333 #2e150b #888888
+            urgent_workspace   #2f343a #900000 #ffffff
+         }
+ 
+ }
+ 
+ # class                 border  backgr. text    indicator child_border
+ client.focused          #4c7899 #285577 #ffffff #f07e4d   #a13203
+ client.focused_inactive #333333 #5f676a #ffffff #b88b77   #806053
+ client.unfocused        #333333 #222222 #888888 #b88b77   #5c392a
+ client.urgent           #2f343a #900000 #ffffff #900000   #900000
+ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+ 
+ client.background       #ffffff
+ #############################################################################
 
 focus_follows_mouse no
 
@@ -198,3 +221,5 @@ bindsym $sup+m	 	exec --no-startup-id $HOME/.local/bin/larbs/dmenumount
 bindsym $sup+Shift+M 	exec --no-startup-id $HOME/.local/bin/larbs/dmenuumount
 bindsym $sup+b 		exec --no-startup-id $HOME/.local/bin/larbs/dmenumountcifs
 bindsym $sup+Shift+p	exec --no-startup-id $HOME/.local/bin/larbs/dmenuunicode
+
+bindsym $mod+Shit+Enter	exec --no-startup-id /usr/bin/brave
