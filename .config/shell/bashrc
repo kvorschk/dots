@@ -11,7 +11,7 @@ if
 fi
 
 # Set vimrc's location and source it on vim startup
-export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
+# export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 
 alias ls='ls --color=auto'
 #PS1='[\u@\h \W]\$ ' 
