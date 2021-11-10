@@ -4,7 +4,7 @@ exec sudo timedatectl set-ntp true &
 exec xset s off &
 exec xset -dpms &
 # exec xcompmgr &
-exec xwallpaper --center files/pics/wall.jpg &
+exec xwallpaper --center files/pics/walls/wall.jpg &
 exec /usr/bin/unclutter &
 exec /usr/bin/xcompmgr &
 exec /usr/bin/dunst &
