@@ -222,4 +222,4 @@ bindsym $sup+Shift+M 	exec --no-startup-id $HOME/.local/bin/larbs/dmenuumount
 bindsym $sup+b 		exec --no-startup-id $HOME/.local/bin/larbs/dmenumountcifs
 bindsym $sup+Shift+p	exec --no-startup-id $HOME/.local/bin/larbs/dmenuunicode
 
-bindsym $mod+Shit+Enter	exec --no-startup-id /usr/bin/brave
+bindsym $mod+Shift+Return	exec --no-startup-id /usr/bin/brave
