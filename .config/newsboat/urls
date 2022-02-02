@@ -1,0 +1,200 @@
+###news###
+#https://globalnews.ca/world/feed/ "news" "int"
+#https://www.cnbc.com/id/100003114/device/rss/rss.html "news" "cur" "us"
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=https%3A%2F%2Fwww.cnbc.com%2Fid%2F100003114%2Fdevice%2Frss%2Frss.html&max=50&links=preserve&exc= "news" "cur" "us"
+#https://www.cnbc.com/id/15837362/device/rss/rss.html "news" "us"
+https://www.dailywire.com/feeds/rss.xml "news" "rop"
+#https://babylonbee.libsyn.com/rss "news" "satt"
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=https%3A%2F%2Fbabylonbee.libsyn.com%2Frss&max=100&links=preserve&exc= "news" "satt"
+#http://www.smh.com.au/rssheadlines/world/article/rss.xml "news" "aus" "int"
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=http%3A%2F%2Fwww.smh.com.au%2Frssheadlines%2Fworld%2Farticle%2Frss.xml&max=100&links=preserve&exc= "news" "aus" "int"
+#https://www.phoronix.com/rss.php "news" "tech"
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=https%3A%2F%2Fwww.phoronix.com%2Frss.php&max=100&links=preserve&exc= "news" "tech"
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=https%3A%2F%2Fglobalnews.ca%2Fworld%2Ffeed%2F&max=50&links=footnotes&exc= "news" "int" 
+#https://www.rt.com/rss/newsu/ "news" "com"
+#https://abcnews.go.com/abcnews/topstories "news" "headlines"
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=https%3A%2F%2Fabcnews.go.com%2Fabcnews%2Ftopstories&max=50&links=preserve&exc= "news" "headlines"
+#https://abcnews.go.com/abcnews/usheadlines "news" "us"
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=https%3A%2F%2Fabcnews.go.com%2Fabcnews%2Fusheadlines&max=50&links=preserve&exc= "news" "us"
+#http://www.npr.org/rss/rss.php?id=1001 "news" "cur"
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=http%3A%2F%2Fwww.npr.org%2Frss%2Frss.php%3Fid%3D1001&max=50&links=preserve&exc= "news" "current"
+https://nypost.com/feed/ "news" "cur"
+http://feeds.feedburner.com/ndtvnews-world-news "news" "int"
+http://feeds.nbcnews.com/nbcnews/public/news "news" "cur"
+https://www.cnbc.com/id/100727362/device/rss/rss.html "news" "int"
+http://feeds.foxnews.com/foxnews/latest "news" "rop"
+http://rss.cnn.com/rss/cnn_topstories.rss "news" "lop"
+http://feeds.feedburner.com/breitbart "news" "rop"
+https://www.cnbc.com/id/19832390/device/rss/rss.html "news" "int"
+http://www.aljazeera.com/xml/rss/all.xml "news" "int"
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=https%3A%2F%2Frss.nytimes.com%2Fservices%2Fxml%2Frss%2Fnyt%2FHomePage.xml&max=50&links=preserve&exc= "nytimes" "ny" "us"
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=http%3A%2F%2Frssfeeds.usatoday.com%2FUsatodaycomNation-TopStories&max=50&links=preserve&exc= "ustoday" "us"
+https://www.politico.com/rss/politicopicks.xml
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=https%3A%2F%2Fwww.yahoo.com%2Fnews%2Frss&max=50&links=preserve&exc=
+http://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=https%3A%2F%2Fboston.cbslocal.com%2Ffeed%2F&max=50&links=preserve&exc=
+https://sanfrancisco.cbslocal.com/feed/
+https://newyork.cbslocal.com/feed/
+https://dfw.cbslocal.com/feed/
+https://www.wmutils.com/fulltextrss/makefulltextfeed.php?url=https%3A%2F%2Fwww.washingtonian.com%2Ffeed%2F&max=15&links=preserve&exc=
+
+##newsmax
+https://www.newsmax.com/rss/US/18 "news" "us" "nm"
+https://www.newsmax.com/rss/Newsfront/16 "news" "cur" "nm"
+https://www.newsmax.com/rss/Politics/1 "news" "usp" "nm"
+https://www.newsmax.com/rss/SciTech/20 "news" "tech" "nm"
+##tech
+https://archlinux.org/feeds/news/ "tech" "os"
+https://www.sciencedaily.com/rss/ "tech" "science"
+https://www.newscientist.com/feed/home/?cmpid=RSS%7CNSNS-Home "tech" "science"
+http://rss.sciam.com/ScientificAmerican-Global "science"
+https://phys.org/rss-feed "science"
+
+###NASA###
+https://www.nasa.gov/rss/dyn/breaking_news.rss "nasa"
+http://blogs.nasa.gov/stationreport/feed/ "nasa" 
+
+###life###
+https://lukesmith.xyz/rss.xml "life" "tech" "language"
+
+https://xkcd.com/atom.xml
+https://css-tricks.com/feed/
+
+
+###youtube###
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "yt" "tech" "language" "phylosophy"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMmvRm3OYFmUUYVWLLChaoA
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnQC_G5Xsjhp9fEJKuIcrSw
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzazFbcJN9xINelSKxK381A
+https://www.youtube.com/feeds/videos.xml?channel_id=UCp8nOGQKLpFhtoIOOUVK40g
+https://www.youtube.com/feeds/videos.xml?channel_id=UCscI4NOggNSN-Si5QgErNCw
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSJPFQdZwrOutnmSFYtbstA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqBiWcuTF8IaLH7wBqnihsQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4gD0czpXVv_LpADTSU624g
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAL3JXZSzSm8AlZyD3nQdBA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCr4kgAUTFkGIwlWSodg43QA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMAtX9eFBpwc4LtgvbqsOpQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvrd6VtgWF7CwaZH1S0N-Qg
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7edjYPNhTm5LYJMT7UMt0Q
+https://www.youtube.com/feeds/videos.xml?channel_id=UCNLP3MVepM-R7uQS1XQKhGg
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXbLZf0rdyUbF0zHxCFwM8g
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdBK94H6oZT2Q7l0-b0xmMg
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQnWIt2N1hnWszI2d-j-6Aw
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1X9HTMhyL4UpmjgkrN41oQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbQ4fbi0fy3d6Hb7q2FIATw
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7oPkqeHTwuOZ5CZ-R9f-6w
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS4aK4K-K6_O6Ghbe3b3nnw
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0rZoXAD5lxgBHMsjrGwWWQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UCiekU5efw8PZRa__gsLUdnA
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_zmPqauxanOAGszXfdipEA
+https://www.youtube.com/feeds/videos.xml?channel_id=UC337i8LcUSM4UMbLf820I8Q
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMOqf8ab-42UUQIdVoKwjlQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZWlSUNDvCCS1hBiXV0zKcA
+https://www.youtube.com/feeds/videos.xml?channel_id=UC34KnQchv18OwZJ7WouJbqA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwx8xyh6ZlDI5ZQpbIWKnUg
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnQeUXQFuTDadzQzCcombzg
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2t-COfa9R0rFsoLdEMr5FA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCl3SuH2Ue044b7ACX1syk4A
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7PYOpaIhJG1tlcn8jGgsgw
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOQB6H4SuSzUN5IfciurY9g
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRXnOs1rjfLMYrtZ-0n29NA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDn7vR8u_4j1vTrjiTMmb2w
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsuIXWVWhlT-dgrLnQKCWpQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMjlDOf0UO9wSijFqPE9wBw
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_U6Yek0YgKHN_A-iTAwZbg
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVZlxkKqlvVqzRJXhAGq42Q
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-eicAkiRdGLguiS1dS_N9Q
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtI0Hodo5o5dUb67FeUjDeA
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6uKrU_WqJ1R2HMTY3LIx5Q
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfjaAUlTZRHJapJmCT6eyIg
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLA_DiR1FfKNvjuUpBHmylQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UCulk5zTeviAN5Bz28DoD_gA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCgUBgZHmefvLvZnsbBKcjhg
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQR_kmeb0lBEk1Zj_9LWDHA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoykA7vQjXcZa7zo7GorLlg
+https://www.youtube.com/feeds/videos.xml?channel_id=UCm9K6rby98W8JigLoZOh6FQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9K5PLkj0N_b9JTPdSRwPkg
+
+##news
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLwNTXWEjVd2qIHLcXxQWxA "yt" "news" "opinion" "podcast"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCe02lGcO-ahAURWuxAJnjdA "yt" "news" "opinion"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCG749Dj4V2fKa143f8sE60Q "yt" "news" "opinion"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvDiNaPeqcZFSwNh3hhyHsQ "yt" "news" "opinion" "live casts"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIveFvW-ARp_B_RckhweNJw "yt" "politics" "rop"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMRxoFJPZiBcxgFzxN0ao-w "yt" "politics" "rop" "live casts"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8c-i0G5ySY3giqIQepEjcQ "yt" "politics" "rop" "live casts"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRLO8HU2LWaMH6mjbQ1falQ "yt" "politics" "news" "funny"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCgFP46yVT-GG4o1TgXn-04Q "yt" "politics" "news" "china"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_7vFlErTHxVD-IFNB-BFCg "yt" "news" "us"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBfB4NCL1v1Wx_tMD6hpLkw "yt" "news" "current"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCu8ebUHoKbhVY0tavNdhwvw "yt" "news" "opinion"
+
+##opinion
+https://www.youtube.com/feeds/videos.xml?channel_id=UChwwoeOZ3EJPobW83dgQfAg "yt" "rop" "survival"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCittVh8imKanO_5KohzDbpg "yt" "rop" 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyD52JnQnXkLe5HGm4IArHw "yt" "science" "covid"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6x4zJADfr5Z4w-bf8lbrcg "yt" "opinion" "infowars"
+
+##entertain
+https://www.youtube.com/feeds/videos.xml?channel_id=UCh2rDh7vXGeoh1LlzL3QEwg "yt" "vgames" "dcs"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxzC4EngIsMrPmbm6Nxvb-A "yt" "vgames" "ksp" "space"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeCJB88u93eq91U0rlJsW-A "yt" "ent" "movies"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC5T0tXJN5CrMZUEJuz4oovw "yt" "ent" "comics" "scifi"
+
+##music
+https://www.youtube.com/feeds/videos.xml?channel_id=UCT5RMcRGa32Th0AZ0Dxxviw "yt" "music" "coding"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMXHtrkazQjeCOteE4sof8g "yt" "music" "coding"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS4aV6_KMc9HgGfcMNNcNng "yt" "music" "oldskool" "trance"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC338BX82DIgBTdx0TX92zZg "yt" "music" "oldskool" "live mix"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwVQIkAtyZzQSA-OY1rsGig "yt" "music"
+https://www.youtube.com/feeds/videos.xml?channel_id=UClkqqvE-MVPHbvdFXpQEd4w "yt" "music"
+
+##authors
+https://www.youtube.com/feeds/videos.xml?channel_id=UC95m7aBYo7wgNCoHb1ojQYw "yt" "bush" "opinion" "norse"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7CNLzuj7xJl3PM0QxqssPQ "yt" "bush" "opinion" 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUVwT8zcS5Z_rYXnpomlbfg "yt" "history" "fiction"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXCxNFxw6iq-Mh4uIjYvufg "yt" "language" "history"
+
+##"bush and outdoors"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCw24dZ7FgbolkClL48mfrgA "yt" "bush" "opinion" "camping"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIMXKin1fXXCeq2UJePJEog "yt" "bush" "prepper" 
+##prepper_shit
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfgtuaUadGgOA-91geQ8Qog "yt" "prepper" "opinion" "camping"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmb2QRAjdnkse21CtxAQ-cA "yt" "prepper" "opinion"
+
+##archery
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdnnPT5tB2Wx-LeOe4mu8Dw "yt" "archery"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-uOc_kvVFpGtrJo0kQU2ZQ "yt" "archery" 
+##history
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxr2d4As312LulcajAkKJYw "yt" "history"
+
+
+##odysee##
+https://odysee.com/$/rss/@SaltyCracker:a 
+https://odysee.com/$/rss/@timcast:c
+https://odysee.com/$/rss/@TimcastNews:0
+https://odysee.com/$/rss/@TimcastIRL:8
+https://odysee.com/$/rss/@grimreapers:e
+https://odysee.com/$/rss/@HighImpactFlix:c
+#https://odysee.com/$/rss/@Infowars:4
+https://odysee.com/$/rss/@ItsAGundam:8
+https://odysee.com/$/rss/@Luke:7
+https://odysee.com/$/rss/@Memology101:e
+https://odysee.com/$/rss/@NextNewsNetwork:8
+https://odysee.com/$/rss/@NorseMagicAndBeliefs:6
+https://odysee.com/$/rss/@PaulJosephWatson:5
+https://odysee.com/$/rss/@SarahCorriher:6
+https://odysee.com/$/rss/@whatdamath:8
+#https://odysee.com/$/rss/@ChinaUncensored:e
+https://odysee.com/$/rss/@canadianprepper:8
+https://odysee.com/$/rss/@wearechange:1
+https://odysee.com/$/rss/@countdankula:d
+https://odysee.com/$/rss/@CountDankula2ElectricBoogaloo:1
+https://odysee.com/$/rss/@filfar:9
+https://odysee.com/$/rss/@ScottManley:5
+https://odysee.com/$/rss/@cliftonhicks:6
+https://odysee.com/$/rss/@YoungRippa59:a
+https://odysee.com/$/rss/@Styxhexenhammer666:2
