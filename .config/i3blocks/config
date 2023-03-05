@@ -20,11 +20,11 @@ color=#35b913
 #interval=5
 #color=#ff4800
 
-#[Network]
-#full_text=NetworkStats
-#command=/home/dorian/.local/bin/ib/sb-internet
-#interval=30
-#color=#ff4800
+[Network]
+full_text=NetworkStats
+command=/home/dorian/.local/bin/ib/sb-internet
+interval=30
+color=#ff4800
 
 [clock]
 full_text=Clock
