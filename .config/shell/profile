@@ -104,4 +104,4 @@ ex=🎯:\
 "
 
 #start the desktop
-exec startx "$XINITRC"
+startx
