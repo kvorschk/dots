@@ -6,6 +6,5 @@ xrandr -r 200
 dunst &
 xcompmgr &
 unclutter &
-mountt &
 pasystray &
 blueman-applet &
