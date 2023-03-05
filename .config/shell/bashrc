@@ -13,6 +13,8 @@ fi
 # Set vimrc's location and source it on vim startup
 # export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 
-alias ls='ls --color=auto'
+# alias ls='ls --color=auto'
 #PS1='[\u@\h \W]\$ ' 
 PS1='== \W ⚙️  >>'
+eval "$(starship init bash)"
+neofetch
