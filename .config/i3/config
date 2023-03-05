@@ -90,9 +90,9 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -183,7 +183,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3blocks
 	position top
-	font pango:Ubuntu-M 16, Awesome 10
+	font pango:Ubuntu-M 18, Awesome 16
 
 colors {
             background #33241e
@@ -210,12 +210,32 @@ colors {
 
 focus_follows_mouse no
 
-default_border pixel 0
+default_border pixel 1
+default_floating_border pixel 1
+for_window [class="^.*"] border pixel 1
 
-gaps inner 2 
+gaps inner 10
 gaps outer 3
 
-exec --no-startup-id startup
+########################Red Shift##########################
+
+bindsym $sup+r mode "$mode_redshift"
+set $mode_redshift Set color temp: (a)uto, (r)eset, (2)35, (3)425, (4)475, (5)000K
+set $kill_redshift pklill -9 redshift;
+mode "$mode_redshift" {
+	bindsym a exec --no-startup-id "$kill_redshift redshift -P -t 5000:4000", mode "default"
+	bindsym r exec --no-startup-id "$kill_redshift redshift -x", mode "default"
+	bindsym 2 exec --no-startup-id "$kill_redshift redshift -P -O 3500", mode "default"
+	bindsym 3 exec --no-startup-id "$kill_redshift redshift -P -O 4250", mode "default"
+	bindsym 4 exec --no-startup-id "$kill_redshift redshift -P -O 4750", mode "default"
+	bindsym 5 exec --no-startup-id "$kill_redshift redshift -P -O 5000", mode "default"
+
+	#exit mode: "Enter" or "Escape"
+	bindsym Return mode "default"
+	bindsym Escape mode "default"
+}
+
+#exec --no-startup-id startup
 
 bindsym $sup+m	 	exec --no-startup-id $HOME/.local/bin/larbs/dmenumount
 bindsym $sup+Shift+M 	exec --no-startup-id $HOME/.local/bin/larbs/dmenuumount
@@ -223,3 +243,10 @@ bindsym $sup+b 		exec --no-startup-id $HOME/.local/bin/larbs/dmenumountcifs
 bindsym $sup+Shift+p	exec --no-startup-id $HOME/.local/bin/larbs/dmenuunicode
 
 bindsym $mod+Shift+Return	exec --no-startup-id /usr/bin/brave
+bindsym $mod+Shift+T		exec --no-startup-id /usr/bin/thunar
+bindsym $mod+Shift+B		exec --no-startup-id /usr/bin/blender
+bindsym $mod+Shift+G		exec --no-startup-id /usr/bin/geany
+bindsym $mod+Shift+S		exec --no-startup-id /usr/bin/steam
+bindsym $mod+Shift+U		exec --no-startup-id /usr/bin/lutris
+bindsym $mod+Shift+D		exec --no-startup-id $HOME/Discord/Discord
+bindsym $mod+Shift+O		exec --no-startup-id $HOME/.fehbg

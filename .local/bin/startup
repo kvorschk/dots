@@ -3,7 +3,8 @@
 exec sudo timedatectl set-ntp true &
 exec xset s off &
 exec xset -dpms &
-exec xwallpaper --daemon --maximize files/pics/walls/wall.jpg &
+exec feh --no-fehbg --bg-scale --randomize '/home/dorian/files/pics/walls'
+#exec xwallpaper --daemon --maximize files/pics/walls/wall.jpg &
 exec /usr/bin/unclutter &
 exec /usr/bin/xcompmgr &
 exec /usr/bin/dunst &

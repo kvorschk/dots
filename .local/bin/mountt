@@ -1,0 +1,3 @@
+#!/bin/env bash
+
+sudo -A chown dorian:wheel $HOME/docs ;

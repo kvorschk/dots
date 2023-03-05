@@ -1,0 +1,38 @@
+#!/bin/bash
+
+usage_exit () {
+    local name="${0##*/}"
+    echo "\
+Usage: $name
+       $name off
+       $name 1.0
+       $name 1.5
+       $name 2.0"
+    exit 1
+}
+
+if [[ -n "$2" ]]; then
+    usage_exit
+fi
+
+scale_go () {
+    local pointer_dev=$(xinput | sed -nr '/Virtual core/d;s/^.*id=([0-9]+).*slave +pointer.*$/\1/p')
+    local output_dev=$(xrandr | sed -nr 's/^(.*) connected primary.*$/\1/p')
+    for x in $output_dev; do
+	xrandr --output $x --scale ${1}x${1}
+    done
+    for x in $pointer_dev ; do
+	xinput set-prop $x 'Coordinate Transformation Matrix' ${1} 0 0 0 ${1} 0 0 0 1
+    done
+}
+
+case "$1" in
+    (off|1|1.0)
+	scale_go 1 ;;
+    (1.5)
+	scale_go 1.5 ;;
+    (2|2.0)
+	scale_go 2 ;;
+    (*)
+	usage_exit ;;
+esac
