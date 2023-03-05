@@ -1,0 +1,11 @@
+sudo timedatectl set-ntp true &
+xset s off &
+xset -dpms &
+xrandr -r 200
+/home/dorian/.fehbg &
+dunst &
+xcompmgr &
+unclutter &
+mountt &
+pasystray &
+blueman-applet &
